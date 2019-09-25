@@ -12,6 +12,8 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { CuerpoComponent } from './pages/cuerpo/cuerpo.component';
+import { ItemComponent } from './pages/item/item.component';
+import { ShoppingCartComponent } from './pages/shopping-cart/shopping-cart.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { CuerpoComponent } from './pages/cuerpo/cuerpo.component';
     FetchDataComponent,
     HeaderComponent,
     FooterComponent,
-    CuerpoComponent
+    CuerpoComponent,
+    ItemComponent,
+    ShoppingCartComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
